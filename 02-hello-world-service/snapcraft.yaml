@@ -5,7 +5,6 @@ description:
   This example demonstrates how to have nodejs webserver.
   This code is part the snapcraft example tour at
   https://snapcraft.io/create-snapsa
-confinement: devmode
 
 apps:
   hello-service:
