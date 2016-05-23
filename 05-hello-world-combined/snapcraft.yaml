@@ -22,18 +22,18 @@ apps:
 parts:
   cli:
     plugin: cmake
-    source: https://github.com/ubuntu-core/snapcraft-examples.git
-    source-subdir: 01-hello-world-cli/src
+    source: https://github.com/ubuntu-core/snapcraft.git
+    source-subdir: examples/01-hello-world-cli/src
 
   service:
     plugin: nodejs
-    source: https://github.com/ubuntu-core/snapcraft-examples.git
-    source-subdir: 02-hello-world-service
+    source: https://github.com/ubuntu-core/snapcraft.git
+    source-subdir: examples/02-hello-world-service
 
   desktop:
     plugin: cmake
-    source: https://github.com/ubuntu-core/snapcraft-examples.git
-    source-subdir: 04-hello-world-desktop/src
+    source: https://github.com/ubuntu-core/snapcraft.git
+    source-subdir: exampes/04-hello-world-desktop/src
     build-packages:
       - qtbase5-dev
     stage-packages:
