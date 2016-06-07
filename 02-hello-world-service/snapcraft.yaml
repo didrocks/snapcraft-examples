@@ -4,7 +4,8 @@ summary: A hello world style nodejs webserver app
 description: 
   This example demonstrates how to have nodejs webserver.
   This code is part the snapcraft example tour at
-  https://snapcraft.io/create-snapsa
+  https://snapcraft.io/create-snaps
+confinement: devmode
 
 apps:
   hello-service:

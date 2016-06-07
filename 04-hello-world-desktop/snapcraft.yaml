@@ -5,6 +5,7 @@ description:
   A simple cmake-based project showing Qt graphics.
   This code is part the snapcraft example tour at
   https://snapcraft.io/create-snaps
+confinement: strict
 
 apps:
   hello-world-desktop:

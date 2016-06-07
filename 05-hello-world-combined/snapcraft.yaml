@@ -5,6 +5,7 @@ description:
   A combination of multiple hello-world examples app in one single snap.
   This code is part the snapcraft example tour at
   https://snapcraft.io/create-snaps
+confinement: strict
 
 apps:
   hello-world-cli:
